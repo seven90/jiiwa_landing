@@ -1,0 +1,89 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ *= require foundation_and_overrides
+ *= require normalize-rails
+
+ */
+
+.jiiwa-logo {
+  height: 50%;
+  position: absolute;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+  
+.title-logo {
+  height: 38px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 10px;
+ }
+
+.video {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.video-wrapper {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.twitter-wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 25%;
+}
+
+.facebook-wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 25%;
+  position: relative;
+  top: 75px;
+  left: 75px;
+}
+
+.fb-share-button
+{
+transform: scale(2.0);
+-ms-transform: scale(2.0); 
+-webkit-transform: scale(2.0); 
+-o-transform: scale(2.0); 
+-moz-transform: scale(2.0); 
+transform-origin: top left;
+-ms-transform-origin: top left;
+-webkit-transform-origin: top left;
+-moz-transform-origin: top left;
+-webkit-transform-origin: top left;
+}
+
+.twitter-hashtag-button
+{
+transform: scale(1.5);
+-ms-transform: scale(1.5); 
+-webkit-transform: scale(1.5); 
+-o-transform: scale(1.5); 
+-moz-transform: scale(1.5); 
+transform-origin: top left;
+-ms-transform-origin: top left;
+-webkit-transform-origin: top left;
+-moz-transform-origin: top left;
+-webkit-transform-origin: top left;
+}
